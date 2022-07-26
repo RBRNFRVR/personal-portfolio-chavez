@@ -1,0 +1,85 @@
+.main-page-image{
+    border-radius: 50%;
+    padding: 10px;
+
+}
+
+.picture-container{
+    background-color: black;
+    width: 326px;
+    border-radius: 50%;
+    margin-right: 25px;
+    margin-top: 70px;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.intro-container{
+    border: solid black;
+    width: 400px;
+    height: 200px;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 120px;
+    margin-left: 25px;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode:forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+.language-file-container{
+    margin-top: 230px;
+}
+
+.container-title{
+    text-align: center;
+    padding-top: 40px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+.language-container{
+    display: flexbox;
+    flex-direction: column;
+}
+
+.language-container img {
+    padding: 20px;
+    transition: 1s;
+}
+
+.language-container :hover img{
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.js-photo{
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+.frameworks-container{
+    display: flexbox;
+    flex-direction: column;
+}
+
+.frameworks-container img {
+    padding: 30px;
+    margin: 40px;
+    transition: 1s;
+}
+
+.frameworks-container :hover img {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
