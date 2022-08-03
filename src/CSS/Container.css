@@ -16,10 +16,8 @@
 }
 
 .intro-container{
-    border: solid black;
     width: 400px;
-    height: 200px;
-    border-radius: 25px;
+    height: 250px;
     padding: 10px;
     margin-top: 120px;
     margin-left: 25px;
@@ -51,6 +49,7 @@
 .language-container{
     display: flexbox;
     flex-direction: column;
+    margin-left: 30px;
 }
 
 .language-container img {
@@ -71,6 +70,7 @@
 .frameworks-container{
     display: flexbox;
     flex-direction: column;
+    margin-left: 48px;
 }
 
 .frameworks-container img {

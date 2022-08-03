@@ -7,9 +7,9 @@ import pythonphoto from '/Users/rbrnfrvr/Personal-Profile-Website/portfolio-webs
 import reactphoto from '/Users/rbrnfrvr/Personal-Profile-Website/portfolio-website/src/images/react-logo.png'
 import routerphoto from '/Users/rbrnfrvr/Personal-Profile-Website/portfolio-website/src/images/react-router-logo.png'
 import railsphoto from '/Users/rbrnfrvr/Personal-Profile-Website/portfolio-website/src/images/rails-logo.png'
-import djangophoto from '/Users/rbrnfrvr/Personal-Profile-Website/portfolio-website/src/images/django-logo-1.png'
+import djangophoto from '/Users/rbrnfrvr/Personal-Profile-Website/portfolio-website/src/images/django-logo.png'
 import jsonphoto from '/Users/rbrnfrvr/Personal-Profile-Website/portfolio-website/src/images/json-logo.png'
-import reduxphoto from '/Users/rbrnfrvr/Personal-Profile-Website/portfolio-website/src/images/redux-logo-landscape.png'
+import reduxphoto from '/Users/rbrnfrvr/Personal-Profile-Website/portfolio-website/src/images/redux_logo_2-24410881e63c96340db17ec232dfd1bf.png'
 import Fade from 'react-reveal/Fade';
 
 export const Languages = () => {
@@ -21,7 +21,7 @@ export const Languages = () => {
           <a href='https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics' target='_blank' rel="noopener noreferrer"><img src={htmlphoto} height="240px" width="240px" alt=''/></a>
           <a href='https://developer.mozilla.org/en-US/docs/Web/CSS' target='_blank' rel="noopener noreferrer"><img src={cssphoto} height="240px" width="180px" alt=''/></a>
           <a href='https://www.javascript.com/' target='_blank' rel="noopener noreferrer"><img src={jsphoto} height="200px" width="200px" className='js-photo' alt=''/></a>
-          <a href='https://www.ruby-lang.org/en/' target='_blank' rel="noopener noreferrer"><img src={rubyphoto} height="250px" width="330px" alt=''/></a>
+          <a href='https://www.ruby-lang.org/en/' target='_blank' rel="noopener noreferrer"><img src={rubyphoto} height="250px" width="360px" alt=''/></a>
           <a href='https://www.python.org/' target='_blank' rel="noopener noreferrer"><img src={pythonphoto} height="200px" width="380px" alt=''/></a>
         </div>
         </Fade>
@@ -30,9 +30,9 @@ export const Languages = () => {
         <div className='frameworks-container'>
           <a href='https://reactjs.org/' target='_blank' rel="noopener noreferrer"><img src={reactphoto}  height='180px' width='380px' alt=''/></a>
           <a href='https://reactrouter.com/docs/en/v6' target='_blank' rel="noopener noreferrer"><img src={routerphoto} height='180px' width='360px' alt=''/></a>
-          <a href='https://redux.js.org/introduction/getting-started' target='_blank' rel="noopener noreferrer"><img src={reduxphoto}  height='200px' width='360px' alt=''/></a>
+          <a href='https://redux.js.org/introduction/getting-started' target='_blank' rel="noopener noreferrer"><img src={reduxphoto}  height='180px' width='360px' alt=''/></a>
           <a href='https://rubyonrails.org/' target='_blank' rel="noopener noreferrer"><img src={railsphoto} height='180px' width='360px' alt=''/></a>
-          <a href='https://www.djangoproject.com/' target='_blank' rel="noopener noreferrer"><img src={djangophoto} height='180px' width='360px' alt=''/></a>
+          <a href='https://www.djangoproject.com/' target='_blank' rel="noopener noreferrer"><img src={djangophoto} height='360px' width='380px' alt=''/></a>
           <a href='https://www.json.org/json-en.html' target='_blank' rel="noopener noreferrer"><img src={jsonphoto} height='180px' width='360px' alt=''/></a>
         </div>
         </Fade>
