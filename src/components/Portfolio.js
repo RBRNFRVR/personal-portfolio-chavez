@@ -1,5 +1,6 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
+import '/Users/rbrnfrvr/Personal-Profile-Website/portfolio-website/src/CSS/Portfolio.css'
 import musicApp from '/Users/rbrnfrvr/Personal-Profile-Website/portfolio-website/src/images/Screen Shot 2022-07-22 at 8.05.26 PM.png'
 import travelApp from '/Users/rbrnfrvr/Personal-Profile-Website/portfolio-website/src/images/Screen Shot 2022-07-23 at 12.10.25 AM.png'
 import reactPhoto from '/Users/rbrnfrvr/Personal-Profile-Website/portfolio-website/src/images/react-logo.png'
@@ -21,9 +22,9 @@ export const Portfolio = () => {
     <div className="portfolio-body" >
       {/* Music App Card */}
       <Fade right>
-        <div className="card" style={{margin:'100px', padding:'20px'}}>
+        <div className="card m-4 p-5" >
           <div className="row">
-            <img className="card-img-top" src={musicApp} alt=""style={{height:'400px', width: '600px'}}/>
+            <img className="card-img-top" src={musicApp} alt=""style={{height:'100%', width:'100%'}}/>
             <div className='used-container' style={{marginLeft:'40px'}}>
               <h1>Stack</h1>
               <ul>
@@ -47,13 +48,13 @@ export const Portfolio = () => {
           </div>  
           <div className="card-body">
             <h5 className="card-title">The Playmaker</h5>
-              <p className="card-text">
-                My first ever solo project after first learning React. I was fascinated with music so I <br/>
-                decided to create a music playlist maker. Creativity was very crude because of a lot of<br/>
-                my effort went into learning the nuances of what it takes to creating a React project. <br/>
-                This was also a fullstack project. The backend was built with a Ruby on Rails rest API with<br/>
-                full CRUD methods to manage every users personal playlist with even some audio clips.<br/>
-                A user authentication feature was also added using only state and React Router.<br/>
+              <p className="card-text" style={{width:'90%'}}>
+                My first ever solo project after first learning React. I was fascinated with music so I 
+                decided to create a music playlist maker. Creativity was very crude because of a lot of
+                my effort went into learning the nuances of what it takes to creating a React project. 
+                This was also a fullstack project. The backend was built with a Ruby on Rails rest API with
+                full CRUD methods to manage every users personal playlist with even some audio clips.
+                A user authentication feature was also added using only state and React Router.
               </p>
               <a 
                 href="https://github.com/RBRNFRVR/musicapp-client" 
@@ -78,9 +79,9 @@ export const Portfolio = () => {
       </Fade>
       {/* Travel App */}
       <Fade left>
-        <div className="card" style={{margin:'100px', padding:'20px'}}>
+        <div className="card m-4 p-5" >
           <div className="row">
-            <img className="card-img-top" src={travelApp} alt=""style={{height:'400px', width: '600px'}}/>
+            <img className="card-img-top" src={travelApp} alt=""style={{height:'100%', width: '100%'}}/>
             <div className='used-container' style={{marginLeft:'40px'}}>
               <h1>Stack</h1>
               <ul>
@@ -104,12 +105,12 @@ export const Portfolio = () => {
           </div>  
           <div className="card-body">
             <h5 className="card-title">The Travel App</h5>
-              <p className="card-text">
-                This was a fun app to make and first time using a css dependency to design my<br/>
-                whole application. I used some styled components as well to make sure everything<br/>
-                came together smoothly. Overall I found trying to between the Google Api and<br/>
-                the Travel Advisor Api the most challenging. But was able to pull it off thanks<br/>
-                to Travel Advisor Api provides the coordinates of each location so we can pass to<br/>
+              <p className="card-text" style={{width:'90%'}}>
+                This was a fun app to make and first time using a css dependency to design my
+                whole application. I used some styled components as well to make sure everything
+                came together smoothly. Overall I found trying to between the Google Api and
+                the Travel Advisor Api the most challenging. But was able to pull it off thanks
+                to Travel Advisor Api provides the coordinates of each location so we can pass to
                 the Google Maps Api and display the location for the user.
               </p>
               <a 
@@ -126,9 +127,9 @@ export const Portfolio = () => {
       </Fade>
       {/* Crypto App */}
       <Fade right>
-        <div className="card" style={{margin:'100px', padding:'20px'}}>
+        <div className="card m-4 p-5" >
           <div className="row">
-            <img className="card-img-top" src={cryptoApp} alt=""style={{height:'400px', width: '600px'}}/>
+            <img className="card-img-top" src={cryptoApp} alt=""style={{height:'100%', width: '100%'}}/>
             <div className='used-container' style={{marginLeft:'40px'}}>
               <h1>Stack</h1>
               <ul>
@@ -153,14 +154,14 @@ export const Portfolio = () => {
               </ul>
             </div>  
           </div>  
-          <div className="card-body">
+          <div className="card-body mb-2">
             <h5 className="card-title">CryptoMania</h5>
-              <p className="card-text">
-                I just started investigating on crypto currencies and how they work especially<br/>
-                with todays tech. So this project was great and more of a a crash course on the<br/>
-                different cryptocurrency that exist today. First time ever using Redux on a project<br/>
-                and I have to say I am quite impressed with could be done. Component based state<br/>
-                is still quite good but having a global state for things such as an API helps out<br/>
+              <p className="card-text" style={{width:'90%'}}>
+                I just started investigating on crypto currencies and how they work especially
+                with todays tech. So this project was great and more of a a crash course on the
+                different cryptocurrency that exist today. First time ever using Redux on a project
+                and I have to say I am quite impressed with could be done. Component based state
+                is still quite good but having a global state for things such as an API helps out
                 and reduces the need to pass props just by introducing some boiler plate code.
 
               </p>

@@ -44,7 +44,7 @@ export const Contact = () => {
 
       <div className="form-container">
         <h2 style={{textAlign:'center'}}>Don't Be Shy! Send Me A Message!</h2>
-        <form onSubmit={sendEmail}>
+        <form onSubmit={sendEmail} className="form-email">
           <div class=" col-8 form-group pt-2 mx-auto">
             <label>Name</label>
             <input 
@@ -90,7 +90,7 @@ export const Contact = () => {
             value={message}
             ></textarea>
           </div>
-          <div className="col-8 pt-3 mx-auto">
+          <div className="col-8 pt-3 mx-auto d-flex justify-content-center">
             <input 
             type="submit" 
             className="btn btn-info" 

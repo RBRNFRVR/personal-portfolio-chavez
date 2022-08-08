@@ -1,26 +1,20 @@
 .main-page-image{
     border-radius: 50%;
     padding: 10px;
+    border: 15px solid black;
+
 
 }
-
 .picture-container{
-    background-color: black;
-    width: 326px;
-    border-radius: 50%;
-    margin-right: 25px;
-    margin-top: 70px;
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
 .intro-container{
-    width: 400px;
+    width: 100;
     height: 250px;
     padding: 10px;
-    margin-top: 120px;
-    margin-left: 25px;
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode:forwards;
@@ -49,7 +43,7 @@
 .language-container{
     display: flexbox;
     flex-direction: column;
-    margin-left: 30px;
+
 }
 
 .language-container img {
@@ -62,24 +56,50 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.js-photo{
-    margin-top: 18px;
-    margin-left: 20px;
-}
-
 .frameworks-container{
     display: flexbox;
     flex-direction: column;
-    margin-left: 48px;
+    margin-left: 10%;
 }
 
 .frameworks-container img {
     padding: 30px;
-    margin: 40px;
     transition: 1s;
 }
 
 .frameworks-container :hover img {
     transform: translateY(-10px);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media only screen and (max-width: 475px) {
+    .frameworks-container{
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .frameworks-container img {
+        width: 100%;
+    }
+
+    .python-photo{
+        width: 100%;
+    }
+    .js-photo{
+        margin-left: 25%;
+    }
+    
+    .html-photo{
+        margin-left: 20%;
+    }
+    
+    .css-photo{
+        margin-left: 28%;
+    }
+    .ruby-photo{
+        margin-left: 6%;
+    }
+    .main-page-image{
+        margin-left:3%;
+    }
 }

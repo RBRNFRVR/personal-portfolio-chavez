@@ -9,7 +9,7 @@ import '/Users/rbrnfrvr/Personal-Profile-Website/portfolio-website/src/CSS/Conta
 export const Container = () => {
     return (
         <div className="homepage-container">
-            <div className="container d-flex justify-content-center mt-5">
+            <div className="container d-flex flex-column flex-md-row justify-content-center mt-5 pt-5" >
                 <div className="picture-container">
                      <img src={require("../images/profile-image.jpeg")} height="320px" className="main-page-image" alt=""/>
                 </div>
